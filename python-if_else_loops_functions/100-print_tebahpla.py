@@ -5,4 +5,4 @@ for letter in range(122, 96, -1):
         print("{}".format(chr(letter)), end="")
     else:
         print("{}".format(chr(letter - 32)), end="")
-    index +=1
+    index += 1
