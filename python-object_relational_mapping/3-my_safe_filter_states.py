@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""a command """
+"""This is about ORM"""
 import MySQLdb
 import sys
 
 
-def connected():
+def connection():
     usrnm = sys.argv[1]
     psswrd = sys.argv[2]
     db_name = sys.argv[3]
@@ -34,4 +34,4 @@ def connected():
 
 
 if __name__ == "__main__":
-    connected()
+    connection()

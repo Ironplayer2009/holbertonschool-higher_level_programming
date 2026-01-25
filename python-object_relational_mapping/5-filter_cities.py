@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""it is a comment"""
+"""This is about ORM"""
 import MySQLdb
 import sys
 
 
-if __name__ == "__main__":
-
+def connection():
     usrnm = sys.argv[1]
     psswrd = sys.argv[2]
     db_name = sys.argv[3]
@@ -38,3 +37,7 @@ if __name__ == "__main__":
 
     cursor.close()
     db.close()
+
+
+if __name__ == "__main__":
+    connection()
